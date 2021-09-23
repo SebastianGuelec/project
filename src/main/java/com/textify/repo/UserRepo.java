@@ -1,0 +1,7 @@
+package com.textify.repo;
+
+import com.textify.entity.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserRepo extends JpaRepository<User,Long> {
+}
