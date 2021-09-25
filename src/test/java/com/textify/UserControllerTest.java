@@ -38,7 +38,9 @@ public class UserControllerTest {
     @Test
     public void testPostUserOK(){
         User user = generateValidUser();
-        ResponseEntity<Object> response = testRestTemplate.postForEntity(API_V1_USERS, user, Object.class);
+        ResponseEntity<Object> response = testRestTemplate.postForEntity(API_V1_U/Users/sebastian/fische/textify/frontend/package.json
+                /Users/sebastian/fische/textify/frontend/src/pages/Register.jsx
+                /Users/sebastian/fische/textify/frontend/src/pages/Register.spec.jsSERS, user, Object.class);
         assertThat(response.getStatusCode()).isEqualTo(HttpStatus.OK);
     }
     @Test
